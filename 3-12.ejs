@@ -15,9 +15,9 @@
     <div role="main">
         <p>
             <table>
-                <% for(var key in data)  %>
+                <% for(var key in data) { %>
                 <%- include('3-10',{key:key,val:data[key]}) %>
-                <%  %>
+                <% } %>
             </table>
         </p>>
     </div>
