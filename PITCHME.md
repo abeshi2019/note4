@@ -122,7 +122,10 @@
 
 +++?code=3-7.ejs
 
-+++?code=3-8.ejs
++++
+```
+<%- include('3-7',{key:key,val:[data[key]]})%>
+```
 
 +++?code=3-9.js
 
