@@ -127,15 +127,16 @@
 
 +++?code=3-7.ejs
 
-+++?code=3-8.ejs
-@[10,11,12,13,14](a)
++++
 ```
 <% for(var key in data){ %>
 <%- include('3-7',{key:key,val:[data[key]]})%>
 <%  }%>
 ```
+@[2](パーシャルを読み込む)
 
 +++?code=3-9.js
+@[58](filenameと言う値を追加)
 
 +++
 ![](3-9.png)
@@ -143,12 +144,16 @@
 +++
 ```
 <tr>
-    <table>
-        <tr>
-            <th><%= key%></th>
-        </tr>
-
-    </table>
+<table>
+<tr>
+<th><%= key%></th>
+</tr>
+<% for(var i in val){ %>
+<tr>
+<td><%= val[i] %></td>
+</tr>
+<% } %>
+</table>
 </tr>
 ```
 @[6,10]()
