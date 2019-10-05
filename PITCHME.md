@@ -120,7 +120,19 @@ a
 +++
 ![](3-9.png)
 
-+++?code=3-10.txt
++++
+<tr>
+    <table>
+        <tr>
+            <th><%= key%></th>
+        </tr>
+        <% for(var i in val){ %>
+        <tr>
+            <td><%= val[i] %></td>
+        </tr>
+        <%} %> 
+    </table>
+</tr>
 @[6,10]()
 
 +++?code=3-11.js
