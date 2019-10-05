@@ -94,7 +94,18 @@
 +++?code=3-5.css
 
 +++?code=3-6.ejs
-@[18](<% %>ではさんだものを実行)
+```
+<p><table>
+                <% for(var key in data){ %>
+                <tr>
+                    <th><%= key%></th>
+                    <td><%= data[key]%></td>
+                </tr>
+                <% } %>
+               
+ </table></p>
+ ```
+(<% %>ではさんだものを実行)
 
 +++
 ![](3-4.png)
