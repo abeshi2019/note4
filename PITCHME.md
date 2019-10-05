@@ -96,13 +96,13 @@
 +++
 ```
 <p><table> 
-   <% for(var key in data){ %>
-   <tr>
-   <th><%= key%></th>
-   <td><%= data[key]%></td>
-   </tr>
-   <% } %>
-   </table></p>
+<% for(var key in data){ %>
+<tr>
+<th><%= key%></th>
+<td><%= data[key]%></td>
+</tr>
+<% } %>
+</table></p>
 ```
 
 +++
