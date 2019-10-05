@@ -93,33 +93,7 @@
 
 +++?code=3-5.css
 
-+++
-```
-<!DOCTYPE html>
-<html lang="ja">
-
-<head>
-    <meta http-equiv="content-type" content="text/html" ; charset="UTF-8">
-    <title><%=title %></title>
-    <link type="text/css" href="./3-5.css" rel="stylesheet">
-</head>
-
-<body>
-
-    <head>
-        <h1><%=title %></h1>
-    </head>
-    <div role="main">
-        <p><%=content %></p>
-        <p><table>
-                
-               
-         </table></p>
-    </div>
-</body>
-
-</html>
-```
++++?code=3-6.ejs
 @[18,23](<% %>ではさんだものを実行)
 
 +++
