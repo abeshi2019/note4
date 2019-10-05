@@ -96,14 +96,13 @@
 +++
 ```
 <p><table>
-                <% for(var key in data){ %>
-                <tr>
-                    <th><%= key%></th>
-                    <td><%= data[key]%></td>
-                </tr>
-                <% } %>
-               
- </table></p>
+   <%for(var key in data){%>
+      <tr>
+      <th><%= key%></th>
+      <td><%= data[key]%></td>
+      </tr>
+   <%}%>
+   </table></p>
 ```
 @[1,3,4,5,7,8,9](<% %>ではさんだものを実行)
 
