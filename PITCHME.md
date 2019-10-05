@@ -138,11 +138,7 @@
         <tr>
             <th><%= key%></th>
         </tr>
-        <% for(var i in val){ %>
-        <tr>
-            <td><%= val[i] %></td>
-        </tr>
-        <%} %> 
+
     </table>
 </tr>
 ```
