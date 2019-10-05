@@ -105,6 +105,13 @@
                
  </table></p>
  ```
+ 
+```
+function hello(){
+　return "hello world!";
+}
+```
+
 @[5](<% %>ではさんだものを実行)
 
 +++
