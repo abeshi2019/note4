@@ -125,7 +125,7 @@
 +++
 ```
 <% for(var key in data){ %>
-                <%- include('3-7',{key:key,val:[data[key]]})%>
+<%- include('3-7',{key:key,val:[data[key]]})%>
 <%  }%>
 ```
 
