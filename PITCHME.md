@@ -30,15 +30,15 @@
 <img src="A-16-1.png" width="500">
 
 +++
-![](A-16-2.png)
+<img src="A-16-2.png" width="500">
 
 +++?code=A-18.js
 
 +++
-![](A-17-1.png)
+<img src="A-17-1.png" width="500">
 
 +++
-![](A-17-2.png)
+<img src="A-17-2.png" width="500">
 
 +++
 ### まとめ
