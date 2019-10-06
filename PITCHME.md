@@ -47,7 +47,7 @@
 - クリックした時とロードした時にイベントを発生するものは？ |
  - onclick,onload |
 - idのタグを操作するオブジェクトを取り出すには？ 
- - getElementById
+ - getElementById |
 - どのプロパティを変更することによってテキストを変更することができるか？ 
  - textContent |
 
