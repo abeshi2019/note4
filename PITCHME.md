@@ -27,7 +27,7 @@
 @[7,11](textContentの値を変更することによって表示するテキストを変更できる)
 
 +++
-<img src="A-16-1.png" width="100">
+<img src="A-16-1.png" width="500">
 
 +++
 ![](A-16-2.png)
