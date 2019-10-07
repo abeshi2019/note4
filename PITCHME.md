@@ -173,13 +173,14 @@
 
 +++
 ![](3-9.png)
+%=key
 
 +++
 ```
 <tr>
 <table>
 <tr>
-<th>< &#37; =key %></th>
+<th><%=key %></th>
 </tr>
 <% for(var i in val){ %>
 <tr>
