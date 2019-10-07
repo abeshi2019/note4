@@ -151,9 +151,6 @@
 
 +++?code=3-7.ejs
 
-+++?code=3-8.ejs
-@[2](パーシャルを読み込む)
-
 +++
 ```
 <% for(var key in data){ %>
