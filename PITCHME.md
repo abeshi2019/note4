@@ -151,7 +151,12 @@
 
 +++?code=3-7.ejs
 
-+++?code=3-8.ejs
++++
+'''
+<% for(var key in data){ %>
+<%- include('3-7',{key:key,val:[data[key]]})%>
+<%  } %>
+'''
 @[2](パーシャルを読み込む)
 
 +++?code=3-9.js
@@ -159,7 +164,6 @@
 
 +++
 ![](3-9.png)
-%=key
 
 +++?code=3-10.ejs
 
