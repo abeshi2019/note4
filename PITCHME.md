@@ -172,7 +172,12 @@
 @[65,66,67,68,69,70,79]
 @[80](filenameと言う値を追加)
 
-+++?code=3-12.ejs
++++
+```
+<% for(var key in data) { %>
+<%- include('3-10',{key:key,val:data[key]}) %>
+<% } %>
+```
 
 +++
 ![](3-11.png)
