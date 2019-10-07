@@ -120,17 +120,8 @@
 +++?code=3-5.css
 
 
-+++
-```
-<p><table>
-<% for(var key in data){ %>
-<tr>
-<th><%= key%></th>
-<td><%= data[key]%></td>
-</tr>
-<% } %>
-</table></p>
-```
++++?code=3-6.ejs
+
 
 +++
 ![](3-4.png)
@@ -160,12 +151,7 @@
 
 +++?code=3-7.ejs
 
-+++
-```
-<% for(var key in data){ %>
-<%- include('3-7',{key:key,val:[data[key]]})%>
-<%  }%>
-```
++++?code=3-8.ejs
 @[2](パーシャルを読み込む)
 
 +++?code=3-9.js
@@ -175,23 +161,8 @@
 ![](3-9.png)
 %=key
 
-+++
-```
-<tr>
-<table>
-<tr>
-<th>
-<%=key %>
-</th>
-</tr>
-<% for(var i in val){ %>
-<tr>
-<td><% =val[i] %></td>
-</tr>
-<% } %>
-</table>
-</tr>
-```
++++?code=3-10.ejs
+
 
 +++?code=3-11.js
 @[65,66,67,68,69,70,79]
