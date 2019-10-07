@@ -180,7 +180,8 @@
 <tr>
 <table>
 <tr>
-<th><%=key %></th>
+<th>
+< %=key %></th>
 </tr>
 <% for(var i in val){ %>
 <tr>
