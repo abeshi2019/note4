@@ -152,11 +152,11 @@
 +++?code=3-7.ejs
 
 +++
-'''
+```
 <% for(var key in data){ %>
 <%- include('3-7',{key:key,val:[data[key]]})%>
 <%  } %>
-'''
+```
 @[2](パーシャルを読み込む)
 
 +++?code=3-9.js
