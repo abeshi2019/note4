@@ -173,13 +173,6 @@
 @[80](filenameと言う値を追加)
 
 +++
-```
-<% for(var key in data) { %>
-<%- include('3-10',{key:key,val:data[key]}) %>
-<% } %>
-```
-
-+++
 ![](3-11.png)
 
 +++?code=3-13.ejs
