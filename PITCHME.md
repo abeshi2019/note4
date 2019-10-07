@@ -181,7 +181,7 @@
 <table>
 <tr>
 <th>
-<%=key %></th>
+&%=key %></th>
 </tr>
 <% for(var i in val){ %>
 <tr>
